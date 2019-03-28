@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First Sensor App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_compass">Compass</string>
+    <string name="button_accelerometer">Accelerometer</string>
+    <string name="compass">Compass</string>
+    <string name="accelerometer">Accelerometer</string>
+</resources>
