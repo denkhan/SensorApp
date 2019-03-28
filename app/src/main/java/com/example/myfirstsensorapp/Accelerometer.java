@@ -51,11 +51,10 @@ public class Accelerometer extends AppCompatActivity implements SensorEventListe
         double y = sensorEvent.values[1];
         double z = sensorEvent.values[2];
 
-        String.format("%.2f", sensorEvent.values[0]);
-
-        xValue.setText("X: " + String.format("%.2f",sensorEvent.values[0]));
-        yValue.setText("Y: " + String.format("%.2f",sensorEvent.values[1]));
-        zValue.setText("Z: " + String.format("%.2f",sensorEvent.values[2]));
+        String temp = "%.2f";
+        xValue.setText("X: " + String.format(temp,sensorEvent.values[0]));
+        yValue.setText("Y: " + String.format(temp,sensorEvent.values[1]));
+        zValue.setText("Z: " + String.format(temp,sensorEvent.values[2]));
 
         String text = "";
 
